@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Traveling - Flight with us</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/results.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+
+    <script src="https://kit.fontawesome.com/b45f3b1a2a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header>
+        <div class="header-top pt-3 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-right">
+                        <a href="#" >LOGIN</a>
+                        <a href="#" class="ml-3">SIGNUP</a>
+                        <a href="#" class="ml-3">EUR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="container pt-2 pb-2">
+                <div class="row align-items-center">
+                    <div class="col">
+                    <img src="./img/logo.jpg" alt="Traveling">
+                    </div>
+                    <div class="col text-right header-main-menu">
+                    <a href="" class="ml-3">HOME</a>
+                    <a href="" class="ml-3">SALES</a>
+                    <a href="" class="ml-3">REVIEWS</a>
+                    <a href="" class="ml-3">NEWS</a>
+                    <a href="" class="ml-3">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+
+    </header>
+
+    <!-- Promo section -->
+    <section class="home-promo">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Let's discover the <br> <span>world</span> together</h1>
+                    <p class="mt-4"><i class="fas fa-plane"></i>Over 500 Airlines</p>
+                    <p><i class="fas fa-map-marker-alt"></i>More than 13,000 places </p>
+                    <p><i class="fas fa-dollar-sign"></i>Best Price Guarantee</p>
+                    <p><i class="fas fa-comments"></i>Customer Care</p>
+                    <a href="#" class="btn btn-primary btn-lg">FIND OUT MORE</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="search">
+
+        <div class="container pt-3 pb-3">
+
+            <form action="search.html" method="GET">
+
+                <!-- Row 1 -->
+                <div class="form-row">
+                    <div class="col-lg-4">
+                        <div class="form-group">
+                            <label for="">Leaving from</label>
+                            <input type="text" class="form-control" placeholder="City, district or specific airport">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="">Departing on</label>
+                            <input type="date" class="form-control" >
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="">Anytime</label>
+                            <select class="custom-select" id="inputGroupSelect01">
+                                <option selected>Anytime</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-row">
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label for="">Adults</label>
+                                    <input type="number" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label for="">Kids</label>
+                                    <input type="number" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="">Leaving from</label>
+                            <input type="text" class="form-control" placeholder="City, district or specific airport">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="form-row">
+                    <div class="col-lg-4">
+                        <div class="form-group">
+                            <label for="">Going from</label>
+                            <input type="text" class="form-control" placeholder="City, district or specific airport">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="">Arriving on</label>
+                            <input type="date" class="form-control" >
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="">Anytime</label>
+                            <select class="custom-select" id="inputGroupSelect01">
+                                <option selected>Anytime</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="">Infants</label>
+                            <input type="number" class="form-control" >
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="">&nbsp;</label>
+                            <input type="submit" class="btn btn-outline-primary btn-block" value="SEARCH">
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+
+    </section>
+
+    <!-- Recommended section -->
+    <section class="recommended">
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col">
+                    <h2 class="recommended-heading">Recommended Flights</h2>
+                    <div class="recommended-line"></div>
+                    <p class="recommended-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, tempore incidunt dolore quam eaque et exercitationem molestias, quod, quibusdam maxime ipsum eum nihil quas sunt architecto dolorem unde neque provident.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://images.pexels.com/photos/2193300/pexels-photo-2193300.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Sydney" class="img-fluid">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="form-row mt-4 mb-3 align-items-center">
+
+                                            <div class="col-4 pl-4">
+
+                                                    <i class="fas fa-plane "></i>
+
+                                            </div>
+                                            <div class="col-8">
+
+                                                    <p class="card-title">London to Paris</p>
+                                                    <p class="card-subtitle">ONEWAY FLIGHT</p>
+
+                                            </div>
+
+                                    </div>
+                                    <a href="#" class="btn btn-primary card-button-view ml-3">VIEW</a>
+                                </div>
+                                <div class="col-4 text-right ">
+                                    <div class="container-card-price">
+                                    <p class="card-subtitle mt-4">FROM</p>
+                                    <p class="card-price">$620</p>
+                                    <a href="#" class="btn btn-primary card-button-book mt-1">BOOK</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://images.pexels.com/photos/258117/pexels-photo-258117.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="London" class="img-fluid">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="form-row mt-4 mb-3 align-items-center">
+
+                                            <div class="col-4 pl-4">
+
+                                                    <i class="fas fa-plane "></i>
+
+                                            </div>
+                                            <div class="col-8">
+
+                                                    <p class="card-title">Paris to India</p>
+                                                    <p class="card-subtitle">ONEWAY FLIGHT</p>
+
+                                            </div>
+
+                                    </div>
+                                    <a href="#" class="btn btn-primary card-button-view ml-3">VIEW</a>
+                                </div>
+                                <div class="col-4 text-right ">
+                                    <div class="container-card-price">
+                                    <p class="card-subtitle mt-4">FROM</p>
+                                    <p class="card-price">$100</p>
+                                    <a href="#" class="btn btn-primary card-button-book mt-1">BOOK</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="https://images.pexels.com/photos/397431/pexels-photo-397431.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Rome" class="img-fluid">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="form-row mt-4 mb-3 align-items-center">
+
+                                            <div class="col-4 pl-4">
+
+                                                    <i class="fas fa-plane "></i>
+
+                                            </div>
+                                            <div class="col-8">
+
+                                                    <p class="card-title">Paris to London</p>
+                                                    <p class="card-subtitle">ONEWAY FLIGHT</p>
+
+                                            </div>
+
+                                    </div>
+                                    <a href="#" class="btn btn-primary card-button-view ml-3">VIEW</a>
+                                </div>
+                                <div class="col-4 text-right ">
+                                    <div class="container-card-price">
+                                    <p class="card-subtitle mt-4">FROM</p>
+                                    <p class="card-price">$420</p>
+                                    <a href="#" class="btn btn-primary card-button-book mt-1">BOOK</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <p class="text-center">Copyleft 2020 Travelling</p>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>
