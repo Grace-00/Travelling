@@ -1,0 +1,203 @@
+body {
+    font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-top {
+    background-color: rgb(0, 174, 236);
+    color: #ffffff;
+    font-size: 0.75rem;
+}
+
+a {
+    color: rgb(0, 174, 236);
+}
+
+.header-top a {
+    color: #ffffff;
+
+}
+
+.header-main-menu a {
+    font-size: 1.2rem;
+    font-weight: 350;
+}
+
+.home-promo {
+    background-image: url(../img/home-bg.jpg);
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.home-promo::after {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    content: " ";
+}
+
+.home-promo h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.home-promo i,
+.home-promo h1 span {
+    color: rgb(0, 174, 236);
+}
+
+.home-promo, i {
+    margin-right: 10px;
+}
+
+.home-promo p {
+    font-size: 1.2rem;
+}
+
+.home-promo .container {
+    z-index: 99;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.home-promo .btn {
+    background-color: #3a455c;
+    border-radius: 25px;
+    border: 0px;
+    font-size: 0.9rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.search select,
+.search input {
+    border-radius: 25px;
+    background-color: #f5f5f5;
+}
+
+.search .btn,
+.card-button-book {
+    border-radius: 25px;
+    border-color: rgb(0, 174, 236);
+    color: rgb(0, 174, 236);
+    background-color: #ffffff;
+}
+
+.search .container {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.search label {
+    font-weight: bold;
+}
+
+.recommended-heading {
+    font-weight: 900;
+}
+
+.recommended-para {
+    font-weight: bold;
+    color: rgb(153,153,153);
+    padding-bottom: 40px;
+}
+
+.recommended {
+    background-color: rgb(245,245,245);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.recommended-line {
+    background-color: rgb(0, 174, 236);
+    width: 85px;
+    height: 2px;
+    margin: 20px 20px 20px 0 ;
+}
+
+.recommended .card-body {
+    padding: 0;
+}
+
+.recommended .card-body i {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 8px;
+
+}
+
+.recommended .card-title,
+.recommended .card-subtitle {
+    font-weight: 900;
+}
+
+.recommended .card-subtitle {
+    font-size: .6rem;
+    font-weight: 900;
+    color: rgb(153,153,153);
+
+}
+
+.card-button-view,
+.card-button-book {
+    border-radius: 25px;
+    font-size: .8rem;
+}
+
+ .card-button-view {
+    background-color: rgb(48,61,82);
+    border: 0;
+
+}
+
+.container-card-price {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.card-price {
+    color: rgb(161,184,116);
+}
+
+footer {
+    font-size: 1.1rem;
+    padding: 15px 0 10px 0;
+    background-color: rgb(15, 36, 75);
+    color: #ffffff;
+}
+
+/* SEARCH PAGE */
+
+.btn-white {
+    background:white;
+    color: #3d6edc;
+    border: 1px solid gray;
+}
+
+.adv {
+    border: 1px solid #56a498;
+    color: #56a498;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
